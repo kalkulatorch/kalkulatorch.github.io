@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title>Backpack 🎒</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <label class="inline" for="error-tolerance">Tolerance:</label>
+  <input id="error-tolerance" value="0.5" />
+  <label class="inline" for="target">Target:</label>
+  <input id="target" value="6.2" />
+  <input type="button" onclick="calculate()" value="Calculate" />
+  <div class="wrapper">
+    <div>
+      <label for="main-input">Enter the numbers</label>
+      <textarea id="main-input" name="input" cols="40" rows="50" placeholder="1.1
+2.2
+3.3
+4.4
+5.5"></textarea>
+    </div>
+    <div>
+      <label for="results">Results</label>
+      <textarea id="results" name="resuls" cols="40" rows="50"></textarea>
+    </div>
+
+
+  </div>
+
+  
+
+</body>
+<script defer src="./index.js"></script>
+
+</html>
